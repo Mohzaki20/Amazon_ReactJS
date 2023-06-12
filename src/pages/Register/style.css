@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.register {
+    width: 350px;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, 12%);
+}
+
+.register #amazon-icon {
+    width: 190px;
+    position: absolute;
+    left: 50%;
+    top: -15%;
+    transform: translate(-50%);
+}
+.card {
+    border: 1px solid #e3e3e3;
+    padding: 20px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 10;
+}
+form #btn {
+    width: 100%;
+    color: #645320;
+    border: 1px solid #806b2a;
+    padding: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #f3d078;
+    background: -webkit-linear-gradient(top,#f7dfa5,#f0c14b);
+    background: linear-gradient(to bottom,#f7dfa5,#f0c14b)
+}
+form #btn:hover {
+    background: #f1c860;
+    background: -webkit-linear-gradient(top,#f5d78e,#eeb933);
+    background: linear-gradient(to bottom,#f5d78e,#eeb933);
+}
+form #name,#mobile,#password,#re-password {
+    width: 100%;
+    margin: 2px 0 20px;
+    padding: 8px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+}
+form label {
+    font-size:13px;
+    font-weight: bold;
+}
+form #name:focus, 
+form #mobile:focus, 
+form #password:focus, 
+form #re-password:focus{
+    outline: none;
+    box-shadow: 1px 1px 5px orange,-1px -1px 5px orange;
+}
+form h1 {
+    margin: 0 0 17px;
+    font-weight: normal;
+    font-size: 28px;
+}
+form .alert {
+    font-size: 12px;
+    color: #2b2b2b;
+    margin-top: -10px;
+    margin-bottom: 15px
+}
+.register p {
+    margin: 20px 0;
+    font-size: 12px;
+}
+#register-link {
+    text-decoration: none;
+    color: #0066c0;
+    font-size: 13px;
+}
+#register-link:hover {
+    color: #c45500;
+    text-decoration: underline;
+}
+.services a {
+    text-decoration: none;
+    color: #0066c0;
+    font-size: 13px;
+}
+.services a:hover {
+    color: #c45500;
+    text-decoration: underline;
+}
+.helping {
+    margin-bottom: 10px;
+}
+.helping .signIn {
+    font-size: 13px;
+    color: #111;
+    border-top: 1px solid #e3e3e3;
+    padding-top: 25px;
+}
+.helping .signIn a {
+    text-decoration: none;
+    color: #0066c0;
+    font-size: 13px;
+}
+.helping .signIn a:hover {
+    color: #c45500;
+    text-decoration: underline;
+}
+.register .line {
+    width: 100%;
+    height: 1px;
+    background-color: #e3e3e3;
+    margin: 30px 0;
+    position: relative;
+}
+.register .line::before {
+    content: "New to Amazon?";
+    color: #767676;
+    font-size: 12px;
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+    padding: 5px 8px;
+}
+.register #create-btn {
+    width: 100%;
+    padding: 8px 0;
+    background: #f6f6f6;
+    background: -webkit-linear-gradient(top,#fff,#eee);
+    background: linear-gradient(to bottom,#fff,#eee);
+    border: 1px solid #888;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.register #create-btn:hover {
+    background: #b3b3b3;
+    background: -webkit-linear-gradient(top,#eee,#eee);
+    background: linear-gradient(to bottom,#eee,#eee);
+    background-color: #ddd
+}
+.register .services {
+    color: #111111;
+}
+.bottom-section {
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    top: 110px;
+    border-top:1px solid #eee;
+    display: flex;
+    justify-content: center;
+}
+.bottom-section .link {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    margin: 20px 0;
+}
+.bottom-section .link a {
+    text-decoration: none;
+    color: #0066c0;
+    font-size: 11px;
+}
+.bottom-section .link a:hover {
+    color: #c45500;
+    text-decoration: underline;
+}
+.bottom-section .description {
+    font-size: 11px;
+    color: #555;
+}

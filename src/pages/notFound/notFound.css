@@ -1,0 +1,14 @@
+.notFound .look {
+  color: #e47911;
+  font-size: 20px;
+  font-weight: bold;
+}
+.notFound .massage {
+  font-weight: 400;
+}
+.notFound a {
+  color: #996633;
+}
+.table-notFound {
+  display: block !important;
+}

@@ -1,0 +1,86 @@
+.shop-cart {
+  background-color: #eaeded;
+}
+.shop-cart .Shopping-Cart,
+.shop-cart .empty {
+  background-color: white;
+}
+.shop-cart .empty *:not(h5, span) {
+  border-bottom: 1px solid #eaeded;
+}
+.shop-cart .Shopping-Cart .text {
+  border-bottom: 1px solid #eaeded;
+}
+.shop-cart .Shopping-Cart .contant {
+  border-bottom: 1px solid #eaeded;
+}
+.shop-cart .Shopping-Cart .contant .stock {
+  font-size: 12px;
+  color: var(--mainColor);
+}
+.shop-cart .Shopping-Cart .contant .delivert {
+  font-size: 12px;
+  color: #565959;
+}
+.shop-cart .Shopping-Cart .select-menu > div {
+  border-right: 1px solid #eaeded;
+}
+.shop-cart .Shopping-Cart .select-menu > button {
+  border-right: 1px solid #eaeded;
+  color: var(--mainColor);
+  font-size: 13px;
+  font-weight: 500;
+}
+.main-color {
+  color: var(--mainColor);
+}
+.shop-cart .features {
+  background-color: white;
+}
+.shop-cart .best-sales {
+  background-color: white;
+}
+.shop-cart .best-sales .contant {
+  font-size: 14px;
+}
+.shop-cart .best-sales .contant p {
+  padding: 0;
+  margin: 0;
+}
+.shop-cart .rate .iconstar .fa-star {
+  color: var(--yellowColor);
+}
+.shop-cart .rate .iconstar .rate-number {
+  color: var(--mainColor);
+}
+.shop-cart .btn-add-cart {
+  background: #ffd814;
+  padding: 0 8px;
+}
+
+.shop-cart .tobuy {
+  background-color: #ffd814;
+  border: none;
+  box-shadow: none;
+  color: black;
+  padding: 4px 0;
+  border-radius: 6px;
+}
+.empty-cart {
+  height: 90vh;
+  background-image: url("https://m.media-amazon.com/images/G/42/cart/empty/kettle-desaturated._CB659190457_.svg");
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.shop-cart .box {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+.shop-cart .text p {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}

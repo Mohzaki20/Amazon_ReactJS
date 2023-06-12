@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.HomePage {
+  background-color: rgb(220, 220, 220);
+  /* justify-content: center; */
+}
+#carouselExample {
+  /* position: relative; */
+  width: 100%;
+  cursor: pointer;
+}
+.Categories {
+  /* position: absolute; */
+  width: 100%;
+  top: 45%;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 1%; */
+}
+.Categories-cards {
+  /* width: 23% !important; */
+  margin: 0;
+  padding: 15px !important;
+  background-color: white;
+  padding: 1%;
+}
+.Categories-Title {
+  margin: 1%;
+  font-size: 25px;
+}
+.Categories-Image {
+  height: 300px;
+  width: 100%;
+  cursor: pointer;
+  display: block;
+  /* margin: 0.5% auto; */
+}
+.Categories-Link {
+  color: rgb(65, 117, 145);
+  text-decoration: none;
+  display: block;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+.Categories-Link:hover {
+  color: #c45500;
+  text-decoration: underline;
+}
+.row {
+  /* position: "relative"; */
+  display: "block";
+  margin: "20px";
+}
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 50 !important;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: transparent;
+}
+.Category_Items_Carousel {
+  /* height: auto;
+  width: 100%;
+  margin-left: 10px;
+  margin-top: 25px;
+  padding: 0; */
+  background-color: white;
+}
+.Category_Items_Title {
+  margin: 10px;
+  font-size: 25px;
+}
+.Category_Items_Link {
+  margin-top: 20px;
+  color: rgb(96, 158, 191);
+  text-decoration: none;
+  cursor: pointer;
+}
+.Category_Items_Link:hover {
+  color: #c45500;
+  text-decoration: underline;
+}
+.Category_Items_Card {
+  margin: 10px;
+  width: 30% !important;
+  border: none;
+}
+.Category_Items_Image {
+  height: 300px;
+}
+.Mid_Img {
+  margin-left: 13%;
+}
+.Category_Offers_Image {
+  height: auto;
+}
+.Item_Offer {
+  background-color: #cc0c39;
+  width: 70%;
+  margin: 0;
+  padding: 3px 9px;
+  color: white;
+}
+.Item_Offer_Dis {
+  margin: 0;
+}
+@media screen and (max-width: 770px) {
+  .card1 {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  .card2 {
+    display: none !important;
+  }
+}

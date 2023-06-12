@@ -1,0 +1,68 @@
+.details .img-continer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.details .small-imges {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #545b62;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.details .small-imges img {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+.details .brand {
+  color: var(--mainColor);
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.details .rate .iconstar .fa-star {
+  color: var(--yellowColor);
+}
+.details .rate .iconstar .fa-chevron-down {
+  color: #adadad;
+  font-size: 13px;
+}
+.details .rate .iconstar .rate-number {
+  color: var(--mainColor);
+}
+
+.details .featurs {
+  justify-content: space-between;
+  max-width: 400px;
+  text-align: center;
+}
+.details .card-img {
+  max-height: 530px;
+}
+.details .free {
+  color: var(--mainColor);
+  font-size: 14px;
+  font-weight: 500;
+}
+.details .free + i {
+  font-size: 10px;
+
+  color: #adadad;
+}
+.details .featurs img {
+  width: 35px;
+}
+.details .featurs p {
+  color: var(--mainColor);
+  font-size: 14px;
+  line-height: 1.1;
+}
+.details .description {
+  overflow: hidden;
+}
+.details .addtocart {
+  border: 1px solid #adadad;
+  border-radius: 5px;
+  padding: 15px;
+}

@@ -1,0 +1,40 @@
+:root {
+  --mainColor: #317185;
+}
+
+@media (min-width: 768px) {
+  .laptop .content-filter {
+    border-right: 2px solid #ddd;
+  }
+}
+.laptop .btn-collapse {
+  background: transparent;
+  color: var(--mainColor);
+  border: 1px solid #adadad;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.laptop .card {
+  cursor: pointer;
+}
+.laptop .card-body {
+  padding: 1rem 0.25rem !important;
+}
+
+.laptop .card-body .card-text {
+  font-weight: 500;
+}
+.laptop .card-body .card-text .text-tomorrow {
+  font-weight: 700;
+}
+.laptop .rate .iconstar .fa-star {
+  color: #fa9e1d;
+}
+.laptop .rate .iconstar .fa-chevron-down {
+  color: #adadad;
+  font-size: 13px;
+}
+.laptop .rate .iconstar .rate-number {
+  color: #317185;
+}

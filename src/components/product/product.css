@@ -1,0 +1,23 @@
+.product .card {
+  cursor: pointer;
+}
+.product .card-body {
+  padding: 1rem 0.25rem !important;
+}
+
+.product .card-body .card-text {
+  font-weight: 500;
+}
+.product .card-body .card-text .text-tomorrow {
+  font-weight: 700;
+}
+.product .rate .iconstar .fa-star {
+  color: var(--yellowColor);
+}
+.product .rate .iconstar .fa-chevron-down {
+  color: #adadad;
+  font-size: 13px;
+}
+.product .rate .iconstar .rate-number {
+  color: var(--mainColor);
+}

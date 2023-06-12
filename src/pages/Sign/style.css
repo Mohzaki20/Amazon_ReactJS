@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign {
+    width: 350px;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, 20%);
+}
+
+.sign #amazon-icon {
+    width: 190px;
+    position: absolute;
+    left: 50%;
+    top: -25%;
+    transform: translate(-50%);
+}
+
+.card {
+    border: 1px solid #e3e3e3;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+#SignForm .error-msg {
+    color: red;
+    margin-bottom: 20px;
+}
+
+form #btn {
+    width: 100%;
+    color: #645320;
+    border: 1px solid #806b2a;
+    padding: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+
+    background: #f3d078;
+    background: -webkit-linear-gradient(top, #f7dfa5, #f0c14b);
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b)
+}
+
+form #btn:hover {
+    background: #f1c860;
+    background: -webkit-linear-gradient(top, #f5d78e, #eeb933);
+    background: linear-gradient(to bottom, #f5d78e, #eeb933);
+}
+
+form #email {
+    width: 100%;
+    margin: 2px 0 10px;
+    padding: 8px;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+}
+
+form label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+form #email:focus {
+    outline: none;
+    box-shadow: 1px 1px 5px orange, -1px -1px 5px orange;
+}
+
+form h1 {
+    margin: 0 0 17px;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.sign p {
+    margin: 20px 0;
+    font-size: 12px;
+}
+
+#sign-link {
+    text-decoration: none;
+    color: #0066c0;
+    font-size: 13px;
+}
+
+#sign-link:hover {
+    color: #c45500;
+    text-decoration: underline;
+}
+
+.services a {
+    text-decoration: none;
+    color: #0066c0;
+    font-size: 13px;
+}
+
+.services a:hover {
+    color: #c45500;
+    text-decoration: underline;
+}
+
+.helping {
+    margin-bottom: 10px;
+}
+
+.sign .line {
+    width: 100%;
+    height: 1px;
+    background-color: #e3e3e3;
+    margin: 30px 0;
+    position: relative;
+}
+
+.sign .line::before {
+    content: "New to Amazon?";
+    color: #767676;
+    font-size: 12px;
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    padding: 5px 8px;
+}
+
+.sign #create-btn {
+    width: 100%;
+    padding: 8px 0;
+    background: #f6f6f6;
+    background: -webkit-linear-gradient(top, #fff, #eee);
+    background: linear-gradient(to bottom, #fff, #eee);
+    border: 1px solid #999;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #111111;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+#create-btn a {}
+
+.sign #create-btn:hover {
+    background: #b3b3b3;
+    background: -webkit-linear-gradient(top, #eee, #eee);
+    background: linear-gradient(to bottom, #eee, #eee);
+    background-color: #ddd
+}
+
+.sign .services {
+    color: #111111;
+}
+
+.bottom-section {
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    top: 110px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-section .link {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    margin: 20px 0;
+}
+
+.bottom-section .link a {
+    text-decoration: none;
+    color: #0066c0;
+    font-size: 11px;
+}
+
+.bottom-section .link a:hover {
+    color: #c45500;
+    text-decoration: underline;
+}
+
+.bottom-section .description {
+    font-size: 11px;
+    color: #555;
+}

@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+  .laptop .content-filter {
+    border-right: 2px solid #ddd;
+  }
+}
+.laptop .btn-collapse {
+  background: transparent;
+  color: var(--mainColor);
+  border: 1px solid #adadad;
+  padding: 10px 0;
+  border-radius: 5px;
+}
