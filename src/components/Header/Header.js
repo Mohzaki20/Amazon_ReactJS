@@ -84,7 +84,7 @@ export default function Header() {
     }
   };
 
-  useEffect(() => {}, [resultSearch]);
+  useEffect(() => { }, [resultSearch]);
 
   function handleLang(event) {
     setlang(event.target.value);
@@ -118,7 +118,7 @@ export default function Header() {
       <div
         className="container-fliud"
 
-        // dir={lang==='en'?'ltr':'rtl'}
+      // dir={lang==='en'?'ltr':'rtl'}
       >
         <nav className="navheader">
           <div id="left-nav">
@@ -130,7 +130,7 @@ export default function Header() {
 
             <div className="locationdiv">
               <a href="/">
-                <div className=" d-flex  flex-norap">
+                <div className=" d-flex  flex-nowrap">
                   <div
                     className="col-4 p-0 d-flex align-items-end"
                     style={
@@ -185,7 +185,7 @@ export default function Header() {
               data-search
               onFocus={handelsearchshow}
 
-              // onBlur={handelsearchshow}
+            // onBlur={handelsearchshow}
             />
 
             <button className="search" type="submit" onClick={search}>
@@ -321,11 +321,11 @@ export default function Header() {
               className="form-check-input m-0"
               type="radio"
               id="flexRadioDefault1"
-              //checked={() => setlang("ar")}
-              //value="ar"
-              //onChange={handleLang}
+            //checked={() => setlang("ar")}
+            //value="ar"
+            //onChange={handleLang}
 
-              // onChange={change}
+            // onChange={change}
             />
 
             <label>العربية -AR</label>

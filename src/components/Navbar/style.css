@@ -71,18 +71,13 @@
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 680px) {
   .navBar {
-    position: fixed;
-    bottom: 0;
-    width: 95%;
-    z-index: 500;
+    overflow-y: scroll;
+    justify-content: flex-start;
   }
   .navBar .links {
-    display: none;
-  }
-  .mobile-screen {
-    display: block;
+    flex-wrap: nowrap;
   }
 }
 .navBar .mobile-screen .show-icons {

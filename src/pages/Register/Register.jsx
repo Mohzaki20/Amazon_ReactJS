@@ -1,19 +1,36 @@
 import React from "react";
 import "./style.css";
 import logo from "../../assets/images/amazon-icon-21121.jpg";
+import { useState } from "react";
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import { auth } from "../../FirebaseConfig/FirebaseConfig";
+
 export default function Register() {
+
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  async function handleRegister(e) {
+    e.preventDefault();
+    try {
+      const user = await createUserWithEmailAndPassword(auth, email, password);
+      console.log(user);
+    } catch (e) {
+      console.log(e.message);
+    }
+  }
   return (
     <>
       <div>
         <div className="register">
           <img src={logo} id="amazon-icon" />
           <div className="card">
-            <form action="/ThankPage/thank.html" method="get" id="form">
+            <form  id="form" onSubmit={(e) => handleRegister(e)}>
               <h1>Create account</h1>
               <label htmlFor="name">Your Name</label>
               <input type="text" id="name" placeholder="First and Last name" />
               <label htmlFor="mobile">Mobile number or email</label>
-              <input type="text" id="mobile" />
+              <input type="text" id="mobile" onChange={(e) => setEmail(e)}/>
               <label htmlFor="password">Password</label>
               <input
                 type="password"
@@ -25,7 +42,7 @@ export default function Register() {
                 Passwords must be at least 6 characters.
               </div>
               <label htmlFor="re-password">Re-enter password</label>
-              <input type="password" id="re-password" />
+              <input type="password" id="re-password" onChange={(e) => setPassword(e)}/>
               <button type="submit" id="btn">
                 Continue
               </button>
@@ -40,7 +57,7 @@ export default function Register() {
                 Already have an account?<a href="/Sign.html">Sign in</a>
                 <i
                   className="fa-solid fa-caret-right"
-                  style={{ "font-size": "10px", color: "#0066c0" }}
+                  style={{ "fontSize": "10px", color: "#0066c0" }}
                 />
               </div>
             </div>

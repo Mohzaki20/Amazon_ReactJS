@@ -45,20 +45,7 @@ export default function Navbar() {
               <Link to="/smartphones">mobiles</Link>
             </li>
           </ul>
-          <img className="img" src={imgNav} />
-          <div className="mobile-screen">
-            <div className="show-icons">
-              <Link href="./index.html">
-                <i className="fa-solid fa-house" />
-              </Link>
-              <Link href="./Sign/Sign.html">
-                <i className="fa-solid fa-user" />
-              </Link>
-              <Link href="./Cart & Pages/card.html">
-                <i className="fa-solid fa-cart-shopping" />
-              </Link>
-            </div>
-          </div>
+          <img className="img" src={imgNav} alt="" />
         </div>
         <div className="layout" />
         <div className="menu">
@@ -89,20 +76,7 @@ export default function Navbar() {
           </div>
           <div className="digital">
             <h4>Digital Content And Devices</h4>
-            <div
-              className="d-flex align-items-center justify-content-between"
-              // style={{
-              //   display: "flex",
-              //   "-webkit-box-pack": "space-between",
-              //   "-webkit-justify-content": "space-between",
-              //   "-ms-flex-pack": "space-between",
-              //   "justify-content": "space-between",
-              //   "-webkit-align-items": "center",
-              //   "-webkit-box-align": "center",
-              //   "-ms-flex-align": "center",
-              //   "align-items": "center",
-              // }}
-            >
+            <div className="d-flex align-items-center justify-content-between">
               <span>Amazon Kindle E-readers</span>
               <i
                 className="fa-solid fa-angle-right"
@@ -147,17 +121,8 @@ export default function Navbar() {
             <div>
               <i className="fa-solid fa-earth-americas" /> English
             </div>
-            <div
-              className="d-flex align-items-center "
-              // style={{
-              //   display: "flex",
-              //   "-webkit-align-items": "center",
-              //   "-webkit-box-align": "center",
-              //   "-ms-flex-align": "center",
-              //   "align-items": "center",
-              // }}
-            >
-              <img src={flagImg} style={{ width: "20px" }} />
+            <div className="d-flex align-items-center ">
+              <img src={flagImg} style={{ width: "20px" }} alt="" />
               <span style={{ marginLeft: "5px" }}>Egypt</span>
             </div>
           </div>
@@ -198,20 +163,7 @@ export default function Navbar() {
           </div>
           <div className="digital">
             <h4>Digital Content And Devices</h4>
-            <div
-              className="d-flex align-items-center justify-content-between"
-              // style={{
-              //   display: "flex",
-              //   "-webkit-box-pack": "space-between",
-              //   "-webkit-justify-content": "space-between",
-              //   "-ms-flex-pack": "space-between",
-              //   "justify-content": "space-between",
-              //   "-webkit-align-items": "center",
-              //   "-webkit-box-align": "center",
-              //   "-ms-flex-align": "center",
-              //   "align-items": "center",
-              // }}
-            >
+            <div className="d-flex align-items-center justify-content-between">
               <span>Amazon Kindle E-readers</span>
               <i
                 className="fa-solid fa-angle-right"
@@ -256,17 +208,8 @@ export default function Navbar() {
             <div>
               <i className="fa-solid fa-earth-americas" /> English
             </div>
-            <div
-              className="d-flex align-items-center justify-content-between"
-              // style={{
-              //   display: "flex",
-              //   "-webkit-align-items": "center",
-              //   "-webkit-box-align": "center",
-              //   "-ms-flex-align": "center",
-              //   "align-items": "center",
-              // }}
-            >
-              <img src={flagImg} style={{ width: "20px" }} />
+            <div className="d-flex align-items-center justify-content-between">
+              <img src={flagImg} style={{ width: "20px" }} alt="" />
               <span style={{ marginLeft: "5px" }}>Egypt</span>
             </div>
           </div>
